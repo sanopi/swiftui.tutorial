@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6ED48D2441ADD2001D270A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6ED48C2441ADD2001D270A /* CircleImage.swift */; };
+		8A6ED48F2441B084001D270A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6ED48E2441B084001D270A /* MapView.swift */; };
 		8A734B94241FD7E100F8A1EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A734B93241FD7E100F8A1EA /* AppDelegate.swift */; };
 		8A734B96241FD7E100F8A1EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A734B95241FD7E100F8A1EA /* SceneDelegate.swift */; };
 		8A734B98241FD7E100F8A1EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A734B97241FD7E100F8A1EA /* ContentView.swift */; };
@@ -16,10 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A6ED48C2441ADD2001D270A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8A6ED48E2441B084001D270A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		8A734B90241FD7E100F8A1EA /* swiftui.tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftui.tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A734B93241FD7E100F8A1EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A734B95241FD7E100F8A1EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A734B97241FD7E100F8A1EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A734B97241FD7E100F8A1EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		8A734B99241FD7E500F8A1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A734B9C241FD7E500F8A1EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A734B9F241FD7E500F8A1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				8A734B95241FD7E100F8A1EA /* SceneDelegate.swift */,
 				8A734B97241FD7E100F8A1EA /* ContentView.swift */,
 				8A734B99241FD7E500F8A1EA /* Assets.xcassets */,
+				8A6ED48C2441ADD2001D270A /* CircleImage.swift */,
+				8A6ED48E2441B084001D270A /* MapView.swift */,
 				8A734B9E241FD7E500F8A1EA /* LaunchScreen.storyboard */,
 				8A734BA1241FD7E500F8A1EA /* Info.plist */,
 				8A734B9B241FD7E500F8A1EA /* Preview Content */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A734B94241FD7E100F8A1EA /* AppDelegate.swift in Sources */,
+				8A6ED48D2441ADD2001D270A /* CircleImage.swift in Sources */,
+				8A6ED48F2441B084001D270A /* MapView.swift in Sources */,
 				8A734B96241FD7E100F8A1EA /* SceneDelegate.swift in Sources */,
 				8A734B98241FD7E100F8A1EA /* ContentView.swift in Sources */,
 			);

@@ -1,11 +1,3 @@
-//
-//  SceneDelegate.swift
-//  swiftui.tutorial
-//
-//  Created by 佐野友啓 on 2020/03/17.
-//  Copyright © 2020 sanopi. All rights reserved.
-//
-
 import UIKit
 import SwiftUI
 
