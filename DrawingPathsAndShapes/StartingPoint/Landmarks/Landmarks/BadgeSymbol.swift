@@ -14,7 +14,7 @@ struct BadgeSymbol: View {
                 let topHeight = 0.488 * height
                 
                 path.addLines([
-                    CGPoint(x: middle, y:spacing),
+                    CGPoint(x: middle, y: spacing),
                     CGPoint(x: middle - topWidth, y: topHeight - spacing),
                     CGPoint(x: middle, y: topHeight / 2 + spacing),
                     CGPoint(x: middle + topWidth, y: topHeight - spacing),
