@@ -9,18 +9,31 @@ struct CategoryRow: View {
             Text(self.categoryName)
                 .font(.headline)
                 .padding(.leading, 15)
-                .padding(.top, 15)
-            
+                .padding(.top, 5)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 0) {
                     ForEach(self.items) { landmark in
-                        Text(landmark.name)
-                        .font(.headline)
+                        CategoryItem(landmark: landmark)
                     }
                 }
             }
-            
-        }.frame(height: 185)
+            .frame(height: 185)
+        }
+    }
+}
+
+struct CategoryItem: View {
+    var landmark: Landmark
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            self.landmark.image
+            .resizable()
+                .frame(width: 155, height: 155)
+                .cornerRadius(5)
+            Text(self.landmark.name)
+            .font(.caption)
+        }.padding(.leading, 15)
     }
 }
 
